@@ -3,6 +3,7 @@ use Minishlink\WebPush\WebPush;
 use Minishlink\WebPush\Subscription;
 use Minishlink\WebPush\VAPID;
 
+error_reporting(0);
 require "includes/database.php";
 require 'web-push/vendor/autoload.php';
 
