@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "yourname/push-notifications",
     "description": "A WordPress plugin for push notifications",
@@ -11,3 +12,18 @@
         }
     }
 }
+=======
+{
+    "name": "yourname/push-notifications",
+    "description": "A WordPress plugin for push notifications",
+    "type": "project",
+    "require": {
+        "minishlink/web-push": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PushNotifications\\": "includes/"
+        }
+    }
+}
+>>>>>>> 977259cb52e019d2d95f80dfd6a6cf83b6cdf924
