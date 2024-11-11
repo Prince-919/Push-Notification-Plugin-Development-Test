@@ -1,0 +1,13 @@
+{
+    "name": "yourname/push-notifications",
+    "description": "A WordPress plugin for push notifications",
+    "type": "project",
+    "require": {
+        "minishlink/web-push": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PushNotifications\\": "includes/"
+        }
+    }
+}
