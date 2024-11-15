@@ -1,0 +1,23 @@
+{
+  "name": "push-notification-system",
+  "version": "1.0.0",
+  "description": "Push Notification System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./api/index.js",
+    "dev": "nodemon ./api/index.js"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "Prince Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^3.2.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^13.0.0",
+    "node-cron": "^3.0.3"
+  }
+}
